@@ -1,0 +1,34 @@
+    1  cd ~
+    2  sudo apt -i python3-minimal
+    3  man apt
+    4  sudo apt install python3-minimal
+    5  ls
+    6  man apt
+    7  apt list
+    8  apt list > ~/CIT173_Lab3/my-installed-1.txt
+    9  cd CIT173_Lab3
+   10* 
+   11  cd ~
+   12  cd CIT173_Lab3_Files
+   13  ls
+   14  man run
+   15  python3 hello.py &
+   16  python3 hello.py
+   17  python3 infinite.py &
+   18  ps
+   19  man ps
+   20  ps -e
+   21  cd ps
+   22  ps
+   23  man ps
+   24  ps -e > ~/CIT173_Lab3/my-processes-1.txt
+   25  ps
+   26  kill 31807
+   27  ps
+   28  ps -e > ~/CIT173_Lab3/my-processes-2.txt
+   29  man apt
+   30  apt remove python3-minimal
+   31  sudo apt remove python3-minimal
+   32  apt list
+   33  apt list > ~/CIT173_Lab3/my-installed-2.txt
+   34  history > ~/CIT173_Lab3/my-command-history.txt
